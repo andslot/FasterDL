@@ -2,6 +2,7 @@
 // Created by slotk on 20/11/2023.
 //
 
+#include <iostream>
 #include <stdexcept>
 #include "Activation.h"
 

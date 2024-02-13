@@ -5,7 +5,7 @@
 #ifndef FASTERNN_ACTIVATION_H
 #define FASTERNN_ACTIVATION_H
 
-#include <vector> // include vector
+#include <riscv_vector.h> // include vector
 
 std::vector<double> Softmax(const std::vector<double>& z);
 std::vector<double> Linear(const std::vector<double>& z);
